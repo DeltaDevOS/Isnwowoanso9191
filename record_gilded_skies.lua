@@ -234,6 +234,7 @@ Button.TextScaled = true
 Button.Text = "Start Record"
 Button.BackgroundColor3 = Color3.fromRGB(60,60,60)
 Button.TextColor3 = Color3.new(1,1,1)
+Button.TextXAlignment = Enum.TextXAlignment.Right
 Button.Parent = Frame
 
 Button.MouseButton1Click:Connect(function()
